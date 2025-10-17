@@ -3,9 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 2px solid red;
+
 }
 
 .title {
     text-align: center;
     color: blue;
+}
+
+.list-container {
+    width: 500px;
+    margin: 0 auto;
 }

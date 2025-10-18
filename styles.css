@@ -3,16 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
 
+body {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #86d19a;
 }
 
 .title {
-    text-align: center;
-    color: blue;
+    margin-bottom: 24px;
 }
 
 .list-container {
-    width: 500px;
+    display: inline-block;
     margin: 0 auto;
+}
+
+a {
+}
+
+a:hover {
+    color: black;
 }
